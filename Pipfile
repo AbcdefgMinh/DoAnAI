@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+easyocr = "*"
+matplotlib = "*"
+opencv-python = "*"
+pyqt5 = "*"
+setuptools = "*"
+tensorflow = "*"
+tensorflow-gpu = "*"
+pillow = "*"
+pyyaml = "*"
+pytz = "*"
+pyparsing = "==2.4.2"
+
+[dev-packages]
+ipython = "*"
+
+[requires]
+python_version = "3.7"
